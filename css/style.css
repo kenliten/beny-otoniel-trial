@@ -13,3 +13,16 @@
     width: 100%;
     max-width: 600px;
 }
+
+#survey-form{
+    align-content: center;
+    width: 50%;
+    height: auto;
+    background-color: #FFCCBC;
+    padding-left: 30px;
+}
+#name{
+    width: auto;
+    text-align: center;
+    font-size: medium;
+}
