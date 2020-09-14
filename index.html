@@ -19,7 +19,7 @@
     </p>
     <form id="survey-form">
       <div>
-        <label for="name" id="name-label">Name</label>
+        <label for="name" id="name-label">Name:</label><br>
         <input id="name" type="text" placeholder="Enter name" required>
       </div>
 
@@ -28,11 +28,11 @@
         <input type="email" id="email" placeholder="Enter email" required>
       </div>
       <div>
-        <label for="number" id="number-label">Age(optional)</label>
+        <label for="number" id="number-label">Age(optional):</label><br>
         <input id="number" min="0" max="100" type="number" placeholder="Enter age">
       </div>
       <div >
-        <label id="role-label" for="dropdown">Which option best describes your current role?</label>
+        <label id="role-label" for="dropdown">Which option best describes your current role?</label><br>
         <select id="dropdown">
           <option disabled selected>Select yourcurrent role</option>
           <option>Student</option>
@@ -40,6 +40,40 @@
           <option>Account</option>
           <option>Software developer</option>
         </select>
+      </div>
+
+      <div>
+        <p>
+          Would you recommend us?:
+        </p>
+        <input type="radio" name="gender" id="yes" value="yes">
+        <label for="yes">Sure!</label>
+        <input type="radio" name="gender" id="maybe" value="maybe">
+        <label for="maybe">Maybe</label>
+        <input type="radio" name="gender" id="no" value="no">
+        <label for="no">Never in my life</label>
+      </div>
+
+      <div>
+        <p>
+          Choose your favorite topic(s) from this list:
+        </p>
+        <input type="checkbox" id="web-dev" value="web-dev">
+        <label for="web-dev">Web Development</label><br>
+        <input type="checkbox" id="web-design" value="web-design">
+        <label for="web-design">web Design</label><br>
+        <input type="checkbox" id="back-end" value="back-end">
+        <label for="back-end">Back-end Development</label><br>
+        <input type="checkbox" id="front-end" value="front-end">
+        <label for="front-end">Front-end Development</label><br>
+        <input type="checkbox" id="angular" value="angular">
+        <label for="angular">Angular.js</label><br>
+        <input type="checkbox" id="vue" value="vue">
+        <label for="vue">Vue.js</label><br>
+        <input type="checkbox" id="react" value="react">
+        <label for="react">React.js</label><br>
+        <input type="checkbox" id="meteor" value="meteor">
+        <label for="meteor">Meteor.js</label><br>
       </div>
     </form>
 
