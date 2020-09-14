@@ -17,12 +17,17 @@
     <p id="description">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, beatae laudantium! Quaerat tenetur magnam recusandae provident voluptate veniam inventore, error, dolorum eius maxime sed iure! Sed natus rerum hic amet!
     </p>
-    <div id="survey-form">
-      <form>
+    <form id="survey-form">
+      <div>
         <label for="name">Name</label>
-        <input id="name" type="text">
-      </form>
-    </div>
+        <input id="name" type="text" required>
+      </div>
+
+      <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required>
+      </div>
+    </form>
 
     <script  src="js/index.js"></script>
   </body>
