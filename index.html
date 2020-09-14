@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>beny-otoniel</title>
+    <title>Microverse Trials Beny-Otoniel Survey Form</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -10,79 +10,98 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1 id="title">
-      sourvey Form
-    </h1>
-
-    <p id="description">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, beatae laudantium! Quaerat tenetur magnam recusandae provident voluptate veniam inventore, error, dolorum eius maxime sed iure! Sed natus rerum hic amet!
-    </p>
-    <form id="survey-form">
-      <div>
-        <label for="name" id="name-label">Name:</label><br>
-        <input id="name" type="text" placeholder="Enter name" required>
-      </div>
-
-      <div>
-        <label for="email" id="email-label">Email:</label><br>
-        <input type="email" id="email" placeholder="Enter email" required>
-      </div>
-      <div>
-        <label for="number" id="number-label">Age(optional):</label><br>
-        <input id="number" min="0" max="100" type="number" placeholder="Enter age">
-      </div>
-      <div >
-        <label id="role-label" for="dropdown">Which option best describes your current role?</label><br>
-        <select id="dropdown">
-          <option disabled selected>Select yourcurrent role</option>
-          <option>Student</option>
-          <option>Teacher</option>
-          <option>Account</option>
-          <option>Software developer</option>
-        </select>
-      </div>
-
-      <div>
-        <p>
-          Would you recommend us?:
-        </p>
-        <input type="radio" name="gender" id="yes" value="yes">
-        <label for="yes">Sure!</label>
-        <input type="radio" name="gender" id="maybe" value="maybe">
-        <label for="maybe">Maybe</label>
-        <input type="radio" name="gender" id="no" value="no">
-        <label for="no">Never in my life</label>
-      </div>
-
-      <div>
-        <p>
-          Choose your favorite topic(s) from this list:
-        </p>
-        <input type="checkbox" id="web-dev" value="web-dev">
-        <label for="web-dev">Web Development</label><br>
-        <input type="checkbox" id="web-design" value="web-design">
-        <label for="web-design">web Design</label><br>
-        <input type="checkbox" id="back-end" value="back-end">
-        <label for="back-end">Back-end Development</label><br>
-        <input type="checkbox" id="front-end" value="front-end">
-        <label for="front-end">Front-end Development</label><br>
-        <input type="checkbox" id="angular" value="angular">
-        <label for="angular">Angular.js</label><br>
-        <input type="checkbox" id="vue" value="vue">
-        <label for="vue">Vue.js</label><br>
-        <input type="checkbox" id="react" value="react">
-        <label for="react">React.js</label><br>
-        <input type="checkbox" id="meteor" value="meteor">
-        <label for="meteor">Meteor.js</label><br>
-      </div>
-
-      <div>
-        <label  for ="comment" id="comment-label">additional comments</label>
-        <textarea id="comment" placeholder="Write here you're additional comments"></textarea>
-
-      </div>
-      <input type="submit" id="submit" value="Submit">
-    </form>
+    <div class="container">
+      <h1 id="title">
+        Microverse Trials Beny-Otoniel Survey Form
+      </h1>
+  
+      <p id="description">
+        Thank you for taking the time to help us improve the microverse Services
+      </p>
+      <form id="survey-form">
+        <div>
+          <label for="name" id="name-label"><b>Name:</b></label>
+          <input id="name" type="text" placeholder="Enter name" required>
+        </div>
+  
+        <div>
+          <label for="email" id="email-label"><b>Email:</b></label>
+          <input type="email" id="email" placeholder="Enter email" required>
+        </div>
+        <div>
+          <label for="number" id="number-label"><b>Age (optional):</b></label>
+          <input id="number" min="0" max="100" type="number" placeholder="Enter age">
+        </div>
+        <div >
+          <label id="role-label" for="dropdown"><b>Which option best describes your current role?</b></label>
+          <select id="dropdown">
+            <option disabled selected>Select yourcurrent role</option>
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Account</option>
+            <option>Software developer</option>
+          </select>
+        </div>
+  
+        <div>
+          <p>
+            <b>Would you recommend us?:</b>
+          </p>
+          <input type="radio" name="gender" id="yes" value="yes">
+          <label for="yes">Sure!</label>
+          <input type="radio" name="gender" id="maybe" value="maybe">
+          <label for="maybe">Maybe</label>
+          <input type="radio" name="gender" id="no" value="no">
+          <label for="no">Never in my life</label>
+        </div>
+  
+        <div>
+          <p>
+            <b>Choose your favorite topic(s) from this list:</b>
+          </p>
+          <div>
+            <input type="checkbox" id="web-dev" value="web-dev">
+            <label for="web-dev">Web Development</label>
+          </div>
+          <div>
+            <input type="checkbox" id="web-design" value="web-design">
+            <label for="web-design">web Design</label>
+          </div>
+          <div>
+            <input type="checkbox" id="back-end" value="back-end">
+            <label for="back-end">Back-end Development</label>
+          </div>
+          <div>
+            <input type="checkbox" id="front-end" value="front-end">
+            <label for="front-end">Front-end Development</label>
+          </div>
+          <div>
+            <input type="checkbox" id="angular" value="angular">
+            <label for="angular">Angular.js</label>
+          </div>
+          <div>
+            <input type="checkbox" id="vue" value="vue">
+            <label for="vue">Vue.js</label>
+          </div>
+          <div>
+            <input type="checkbox" id="react" value="react">
+            <label for="react">React.js</label>
+          </div>
+          <div>
+            <input type="checkbox" id="meteor" value="meteor">
+            <label for="meteor">Meteor.js</label>
+          </div>
+        </div>
+  
+        <div>
+          <label  for ="comment" id="comment-label"><b>Additional comments</b></label>
+          <textarea id="comment" placeholder="Write here you're additional comments"></textarea>
+  
+        </div>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </div>
+      
 
     <script  src="js/index.js"></script>
   </body>

@@ -1,4 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
 #title{
+    text-align: center;
+    padding: 20px;
+    color: #F5F5F5;
+    background: #0288D1;
+}
+
+#description{
+    color: #616161;
+    padding: 15px;
     text-align: center;
 }
 
@@ -15,14 +33,44 @@
 }
 
 #survey-form{
-    align-content: center;
-    width: 50%;
+    width: 100%;
     height: auto;
-    background-color: #FFCCBC;
-    padding-left: 30px;
+    padding: 25px;
 }
-#name{
-    width: auto;
-    text-align: center;
-    font-size: medium;
+
+body{
+    background: #E0E0E0;
+}
+
+.container{
+    background-color: #fff;
+    display: block;
+    margin: 50px auto;
+    width: 70%;
+}
+
+input[type=text],
+input[type=number],
+input[type=submit],
+textarea, select,
+input[type=email]{
+    margin: 10px 0;
+    border: 1px solid #BDBDBD;
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+textarea{
+    height: 150px;
+}
+
+div{
+    margin: 8px 0;
+}
+
+#submit{
+    border-color: #0288D1;
+    background: #0288D1;
+    color: #fff;
 }
