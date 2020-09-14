@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-#title{
+#title, #footer{
     text-align: center;
     padding: 20px;
     color: #F5F5F5;
